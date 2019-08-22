@@ -14,10 +14,10 @@
             <property name="suppressDate" value="true" /> <!-- 是否生成注释代时间戳 -->
         </commentGenerator>
 
-        <jdbcConnection driverClass="${driver}"
-                        connectionURL="${url}"
-                        userId="${username}"
-                        password="${password}" />
+        <jdbcConnection driverClass="${jdbc.driver}"
+                        connectionURL="${jdbc.url}"
+                        userId="${jdbc.user}"
+                        password="${jdbc.password}" />
 
         <!-- 类型转换 -->
         <javaTypeResolver>

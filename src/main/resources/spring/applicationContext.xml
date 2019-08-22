@@ -41,21 +41,21 @@
     </bean>
     <!-- 配置会话工厂SqlSessionFactory -->
 
-<!--    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
-<!--        &lt;!&ndash; 数据源 &ndash;&gt;-->
-<!--        <property name="dataSource" ref="dataSource"/>-->
-<!--        <property name="mapperLocations" value="classpath:sqlmap/*Mapper.xml"/>-->
-<!--        <property name="typeAliasesPackage" value="com.shallin.entity" />-->
+     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 数据源 -->
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mapperLocations" value="classpath:sqlmap/*Mapper.xml"/>
+        <property name="typeAliasesPackage" value="com.shallin.entity" />
 
-<!--    </bean>-->
+    </bean>
 
-<!--    &lt;!&ndash; 在spring容器中配置mapper的扫描器产生的动态代理对象在spring的容器中自动注册，bean的id就是mapper类名（首字母小写）&ndash;&gt;-->
-<!--    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
-<!--        &lt;!&ndash; 指定扫描包的路径，就是mapper接口的路径，多个包中间以 半角逗号隔开   &ndash;&gt;-->
-<!--        <property name="basePackage" value="com.shallin.dao"/>-->
-<!--        &lt;!&ndash; 配置sqlSessionFactoryBeanName &ndash;&gt;-->
-<!--        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>-->
-<!--    </bean>-->
+    <!-- 在spring容器中配置mapper的扫描器产生的动态代理对象在spring的容器中自动注册，bean的id就是mapper类名（首字母小写）-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 指定扫描包的路径，就是mapper接口的路径，多个包中间以 半角逗号隔开   -->
+        <property name="basePackage" value="com.shallin.dao"/>
+        <!-- 配置sqlSessionFactoryBeanName -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
 
 
 
