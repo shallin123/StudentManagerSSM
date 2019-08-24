@@ -2,10 +2,8 @@ package com.shallin.controller;
 
 
 import com.mysql.cj.util.StringUtils;
-import com.shallin.dao.UserMapper;
 import com.shallin.entity.User;
 import com.shallin.service.UserService;
-import com.shallin.service.impl.UserServiceImpl;
 import com.shallin.util.CpachaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,7 +14,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.imageio.ImageIO;
-import javax.net.ssl.SSLEngine;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
@@ -33,7 +30,7 @@ public class SystemController {
 
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public  ModelAndView index(ModelAndView model){
-            model.setViewName("index");
+            model.setViewName("system/index");
             return model;
     }
 

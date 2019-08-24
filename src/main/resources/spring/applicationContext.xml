@@ -104,8 +104,14 @@
 
     <!-- 拦截器 -->
     <mvc:interceptors>
-        <!-- 国际化操作拦截器 如果采用基于（请求/Session/Cookie）则必需配置 -->
-        <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/system/login"/>
+            <mvc:exclude-mapping path="/system/get_cpacha"/>
+            <mvc:exclude-mapping path="/h-ui/**"/>
+            <mvc:exclude-mapping path="/easyui/**"/>
+            <bean class="com.shallin.interceptor.LoginInterceptor"></bean>
+        </mvc:interceptor>
     </mvc:interceptors>
     <!-- 定义无Controller的path<->view直接映射 -->
     <!-- <mvc:view-controller path="/" view-name="redirect:/" /> -->
