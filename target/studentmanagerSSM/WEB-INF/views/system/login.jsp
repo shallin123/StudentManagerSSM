@@ -114,7 +114,7 @@
         </form>
     </div>
 </div>
-<div class="footer">Copyright &nbsp; author @shallin </div>
+<div class="footer">Copyright &nbsp@shallin </div>
 
 
 </body>

@@ -5,20 +5,20 @@ import java.util.Map;
 
 import org.springframework.stereotype.Repository;
 
-import com.shallin.entity.User;
+import com.shallin.entity.Clazz;
+
 /**
- * 用户（管理员）dao
+ * 班级dao
  * @author shallin
  *
  */
 @Repository
-public interface UserMapper {
-    User findByUserName(String username);
-    int add(User user);
-    int edit(User user);
+public interface ClazzMapper {
+    int add(Clazz clazz);
+    int edit(Clazz clazz);
     int delete(String ids);
-    List<User> findList(Map<String, Object> queryMap);
+    List<Clazz> findList(Map<String, Object> queryMap);
+    List<Clazz> findAll();
     int getTotal(Map<String, Object> queryMap);
 }
-
 

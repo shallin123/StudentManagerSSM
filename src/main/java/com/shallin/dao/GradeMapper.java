@@ -8,7 +8,9 @@ import org.springframework.stereotype.Repository;
 import com.shallin.entity.Grade;
 
 /**
- * @author  shallin
+ * 年级dao
+ * @author shallin
+ *
  */
 @Repository
 public interface GradeMapper {

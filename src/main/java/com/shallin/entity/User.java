@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 用户实体类
- * @author llq
+ * @author shallin
  *
  */
 @Component
