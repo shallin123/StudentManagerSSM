@@ -7,136 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9efb019-9604-41c9-9b9b-8b79587efb15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/controller/ClazzController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/dao/ClazzMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/dao/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/entity/Clazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/service/ClazzService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/service/impl/ClazzServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shallin/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/ClazzMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/clazz/clazz_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/photo/photo_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shallin/dao/GradeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shallin/dao/GradeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shallin/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shallin/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shallin/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shallin/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/controller/SystemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/dao/GradeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/interceptor/LoginInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/service/GradeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/service/impl/GradeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/util/CpachaUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/generator.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/avalon-framework-4.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/commons-httpclient-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/jackson-annotations-2.7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/jackson-core-2.7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/jsr250-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/log4j-1.2.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/logkit-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/slf4j-api-1.6.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/lib/spring-test-4.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/views/grade/grade_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/views/system/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/views/system/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/jquery.easyui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/js/outlook2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/images/accordion_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/images/combo_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/images/datagrid_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/images/messager_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/images/pagination_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/images/searchbox_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/numberbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/default/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/asterisk_orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/basket_remove.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/book_open_mark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/cut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/edit_remove.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/find.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/large_chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/large_smartart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/mini_add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/mini_refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/more.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/ok.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/pencil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/print.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/set.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/sum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/text_list_bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/user_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/vcard_edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/world.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/icons/world_add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/easyui/themes/locale/easyui-lang-zh_CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/css/H-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/images/acrossTab-2bak.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/images/icon-add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/images/icon_warning_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/images/totop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/js/H-ui.admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/Hui-iconfont/1.0.1/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/Hui-iconfont/1.0.1/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/Hui-iconfont/1.0.1/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/minimal@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/lib/icheck/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/skin/default/acrossTab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/h-ui/skin/default/skin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/photo/student.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/upload/1543327998851.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/upload/1543405765961.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/upload/1543406250827.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shallin/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shallin/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/com/shallin/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/views/clazz/clazz_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/views/clazz/clazz_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/views/student/student_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/studentmanagerSSM/WEB-INF/views/student/student_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,15 +32,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/Grade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/Clazz.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -169,15 +41,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/controller/ClazzController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="272">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2335#2351#0" expanded="true" />
+                <element signature="e#2405#2421#0" expanded="true" />
+                <element signature="e#3364#3380#0" expanded="true" />
+                <element signature="e#4605#4621#0" expanded="true" />
+                <element signature="e#5891#5907#0" expanded="true" />
+                <element signature="e#7092#7108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,27 +87,6 @@
                 <element signature="e#816#817#0" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
                 <element signature="e#900#901#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/ClazzMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/dao/StudentMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -269,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/user_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="-1870">
+              <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -294,10 +160,28 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/service/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2873">
+              <caret line="190" column="17" selection-start-line="190" selection-start-column="17" selection-end-line="190" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -392,12 +276,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shallin/entity/Student.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlmap/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shallin/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/shallin/dao/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shallin/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shallin/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java" />
       </list>
     </option>
   </component>
@@ -431,8 +316,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="3" />
+    <option name="x" value="671" />
+    <option name="y" value="23" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
@@ -473,7 +358,60 @@
               <item name="StudentManagerSSM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shallin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentManagerSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentManagerSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shallin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentManagerSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentManagerSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shallin" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentManagerSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentManagerSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentManagerSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentManagerSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentManagerSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentManagerSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentManagerSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentManagerSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -493,7 +431,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35402298" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java" />
   </component>
   <component name="RecentsManager">
@@ -901,7 +839,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567490080611</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="9.3-13.00">
+      <created>1567771323448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567771323471</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -910,7 +855,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128154000" />
+    <option name="totallyTimeSpent" value="131977000" />
   </component>
   <component name="TodoView" selected-index="5">
     <todo-panel id="selected-file">
@@ -923,7 +868,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -936,7 +880,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35260117" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.71428573" weight="0.34635416" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.71428573" visible="true" weight="0.3515625" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.3971354" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -949,7 +893,7 @@
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32841823" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info active="true" anchor="bottom" id="Messages" order="15" sideWeight="0.49609375" visible="true" weight="0.32552084" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49609375" weight="0.32552084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1065,7 +1009,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="9.3-13.00" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/UserKey.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1325,16 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/controller/ClazzController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/controller/GradeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
@@ -1411,20 +1344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="190" column="17" selection-start-line="190" selection-start-column="17" selection-end-line="190" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1451,22 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="238" column="9" lean-forward="true" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2335#2351#0" expanded="true" />
-            <element signature="e#2405#2421#0" expanded="true" />
-            <element signature="e#3364#3380#0" expanded="true" />
-            <element signature="e#4605#4621#0" expanded="true" />
-            <element signature="e#5891#5907#0" expanded="true" />
-            <element signature="e#7092#7108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/ClazzMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1484,6 +1387,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/Grade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/service/ClazzService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1497,10 +1440,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1545,13 +1495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/Grade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/Clazz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1559,43 +1502,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/controller/ClazzController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/user_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="-1870">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="190" column="17" selection-start-line="190" selection-start-column="17" selection-end-line="190" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shallin/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2335#2351#0" expanded="true" />
+            <element signature="e#2405#2421#0" expanded="true" />
+            <element signature="e#3364#3380#0" expanded="true" />
+            <element signature="e#4605#4621#0" expanded="true" />
+            <element signature="e#5891#5907#0" expanded="true" />
+            <element signature="e#7092#7108#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

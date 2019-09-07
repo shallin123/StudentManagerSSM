@@ -109,7 +109,7 @@
 									$("#dataList").datagrid("uncheckAll");
 								} else{
 									$.messager.alert("消息提醒",data.msg,"warning");
-									return;
+
 								}
 							}
 						});
@@ -141,7 +141,7 @@
 						var validate = $("#addForm").form("validate");
 						if(!validate){
 							$.messager.alert("消息提醒","请检查你输入的数据!","warning");
-							return;
+
 						} else{
 							var data = $("#addForm").serialize();
 							$.ajax({
@@ -162,7 +162,7 @@
 
 									} else{
 										$.messager.alert("消息提醒",data.msg,"warning");
-										return;
+
 									}
 								}
 							});
@@ -199,7 +199,7 @@
 						var validate = $("#editForm").form("validate");
 						if(!validate){
 							$.messager.alert("消息提醒","请检查你输入的数据!","warning");
-							return;
+
 						} else{
 
 							var data = $("#editForm").serialize();
@@ -221,7 +221,7 @@
 
 									} else{
 										$.messager.alert("消息提醒",data.msg,"warning");
-										return;
+
 									}
 								}
 							});
@@ -290,12 +290,12 @@
 	</table>
 	<!-- 工具栏 -->
 	<div id="toolbar">
-		<div style="float: left;"><a id="add" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">添加</a></div>
+		<div style="float: left;"><a id="add" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">添加</a></div>
 			<div style="float: left;" class="datagrid-btn-separator"></div>
-		<div style="float: left;"><a id="edit" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a></div>
+		<div style="float: left;"><a id="edit" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a></div>
 			<div style="float: left;" class="datagrid-btn-separator"></div>
 		<div>
-			<a id="delete" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a>
+			<a id="delete" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a>
 			学生名：<input id="search-name" class="easyui-textbox"style="width: 100px" />
 			所属班级：
 			<select id="search-clazz-id" class="easyui-combobox" style="width: 150px;">
@@ -304,7 +304,7 @@
 	    			<option value="${clazz.id }">${clazz.name }</option>
 	    		</c:forEach>
 			</select>
-			<a id="search-btn" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true">搜索</a>
+			<a id="search-btn" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true">搜索</a>
 		</div>
 	</div>
 
@@ -322,7 +322,7 @@
 	    			<td>学生头像:</td>
 	    			<td>
 	    				<input id="add-upload-photo" class="easyui-filebox" name="photo" data-options="prompt:'选择照片'" style="width:200px;">
-	    				<a id="upload-btn" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">上传图片</a>
+	    				<a id="upload-btn" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">上传图片</a>
 	    			</td>
 	    		</tr>
 	    	</table>
@@ -384,7 +384,7 @@
 	    			<td>学生头像:</td>
 	    			<td>
 	    				<input id="edit-upload-photo" class="easyui-filebox" name="photo" data-options="prompt:'选择照片'" style="width:200px;">
-	    				<a id="edit-upload-btn" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">上传图片</a>
+	    				<a id="edit-upload-btn" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">上传图片</a>
 	    			</td>
 	    		</tr>
 	    	</table>
