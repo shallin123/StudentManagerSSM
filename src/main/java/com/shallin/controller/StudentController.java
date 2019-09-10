@@ -74,12 +74,12 @@ public class StudentController {
         Map<String, Object> ret = new HashMap<String, Object>();
         Map<String, Object> queryMap = new HashMap<String, Object>();
         queryMap.put("username", "%"+name+"%");
-//        Object attribute = request.getSession().getAttribute("userType");
-//        if("2".equals(attribute.toString())){
-//            //说明是学生
-//            Student loginedStudent = (Student)request.getSession().getAttribute("user");
-//            queryMap.put("username", "%"+loginedStudent.getUsername()+"%");
-//        }
+        Object attribute = request.getSession().getAttribute("userType");
+        if("2".equals(attribute.toString())){
+            //说明是学生
+            Student loginedStudent = (Student)request.getSession().getAttribute("user");
+            queryMap.put("username", "%"+loginedStudent.getUsername()+"%");
+        }
         if(clazzId != null){
             queryMap.put("clazzId", clazzId);
         }

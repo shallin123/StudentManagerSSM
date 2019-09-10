@@ -101,8 +101,8 @@
                     <label for="radio-1">学生</label>
                 </div>
                 <div class="radio-box">
-                    <%--@declare id="radio-3"--%><input type="radio" id="radio-1" checked name="type" value="1" />
-                    <label for="radio-3">管理员</label>
+                    <input type="radio" id="radio-1" checked name="type" value="1" />
+                    <label for="radio-2">管理员</label>
                 </div>
             </div>
 

@@ -253,7 +253,9 @@
 		<div style="float: left;"><a id="edit" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a></div>
 			<div style="float: left;" class="datagrid-btn-separator"></div>
 		<div>
+			<c:if test="${userType==1}">
 			<a id="delete" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a>
+			</c:if>
 			班级名：<input id="search-name" class="easyui-textbox"style="width: 100px" />
 			所属年级：
 			<select id="search-grade-id" class="easyui-combobox" style="width: 150px;">

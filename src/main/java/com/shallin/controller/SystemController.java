@@ -2,7 +2,9 @@ package com.shallin.controller;
 
 
 import com.mysql.cj.util.StringUtils;
+import com.shallin.entity.Student;
 import com.shallin.entity.User;
+import com.shallin.service.StudentService;
 import com.shallin.service.UserService;
 import com.shallin.util.CpachaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +29,8 @@ import java.util.Map;
 public class SystemController {
 @Autowired
     private UserService userService;
+@Autowired
+    private StudentService studentService;
 
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public  ModelAndView index(ModelAndView model){
@@ -41,6 +45,24 @@ public class SystemController {
         return model;
     }
 
+    /**
+     * 注销登录
+     * @param request
+     * @return
+     */
+    @RequestMapping(value = "/login_out",method=RequestMethod.GET)
+    public String loginOut(HttpServletRequest request){
+        request.getSession().setAttribute("user", null);
+        return "redirect:login";
+    }
+    /**
+     * 显示 验证码
+     * @param request
+     * @param vl
+     * @param w
+     * @param h
+     * @param response
+     */
     @RequestMapping(value = "/get_cpacha", method = RequestMethod.GET)
     public void getCpacha(HttpServletRequest request,
                           @RequestParam(value = "vl", defaultValue = "4", required = false) Integer vl,
@@ -107,9 +129,21 @@ if(type==1) {
     }
     request.getSession().setAttribute("user",user);
 }
-if (type==2){
-
+if (type==2) {
+    Student student = studentService.findByUserName(username);
+    if (student == null) {
+        ret.put("type", "error");
+        ret.put("msg", "不存在该学生");
+        return ret;
+    }
+    if (!password.equals(student.getPassword())) {
+        ret.put("type", "error");
+        ret.put("msg", "密码错误");
+        return ret;
+    }
+    request.getSession().setAttribute("user",student);
 }
+        request.getSession().setAttribute("userType", type);
         ret.put("type","success");
         ret.put("msg","登陆成功");
         return ret;

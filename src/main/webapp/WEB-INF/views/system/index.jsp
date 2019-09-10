@@ -16,12 +16,13 @@
     <script type="text/javascript" src='../easyui/js/outlook2.js'> </script>
     <script type="text/javascript">
         var _menus = {"menus":[
-
+            <c:if test="${userType==1}">
                 {"menuid":"1","icon":"","menuname":"用户（管理员）管理",
                     "menus":[
                         {"menuid":"11","menuname":"用户列表","icon":"icon-user-teacher","url":"../user/list"}
                     ]
                 },
+                </c:if>
                 {"menuid":"3","icon":"","menuname":"年级信息管理",
                     "menus":[
                         {"menuid":"31","menuname":"年级列表","icon":"icon-world","url":"../grade/list"},
