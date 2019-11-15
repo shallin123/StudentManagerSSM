@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 import net.sf.json.JSONArray;
-import net.sf.json.JSONObject;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +27,6 @@ import com.shallin.util.StringUtil;
  * @author shallin
  *
  */
-@RequestMapping("/clazz")
 @Controller
 public class ClazzController {
 	
@@ -41,7 +39,6 @@ public class ClazzController {
 	 * @param model
 	 * @return
 	 */
-	@RequestMapping(value="/list",method=RequestMethod.GET)
 	public ModelAndView list(ModelAndView model){
 		model.setViewName("clazz/clazz_list");
 		List<Grade> findAll = gradeService.findAll();
@@ -56,7 +53,6 @@ public class ClazzController {
 	 * @param page
 	 * @return
 	 */
-	@RequestMapping(value="/get_list",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String, Object> getList(
 			@RequestParam(value="name",required=false,defaultValue="") String name,
@@ -81,7 +77,6 @@ public class ClazzController {
 	 * @param clazz
 	 * @return
 	 */
-	@RequestMapping(value="/edit",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String, String> edit(Clazz clazz){
 		Map<String, String> ret = new HashMap<String, String>();
@@ -111,7 +106,6 @@ public class ClazzController {
 	 * @param clazz
 	 * @return
 	 */
-	@RequestMapping(value="/add",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String, String> add(Clazz clazz){
 		Map<String, String> ret = new HashMap<String, String>();
@@ -140,7 +134,6 @@ public class ClazzController {
 	 * @param ids
 	 * @return
 	 */
-	@RequestMapping(value="/delete",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String, String> delete(
 			@RequestParam(value="ids[]",required=true) Long[] ids

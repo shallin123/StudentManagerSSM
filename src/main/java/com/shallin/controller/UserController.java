@@ -21,7 +21,6 @@ import com.shallin.service.UserService;
  * @author llq
  *
  */
-@RequestMapping("/user")
 @Controller
 public class UserController {
 
@@ -33,7 +32,6 @@ public class UserController {
      * @param model
      * @return
      */
-    @RequestMapping(value="/list",method=RequestMethod.GET)
     public ModelAndView list(ModelAndView model){
         model.setViewName("user/user_list");
         return model;
@@ -45,7 +43,6 @@ public class UserController {
      * @param page
      * @return
      */
-    @RequestMapping(value="/get_list",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> getList(
             @RequestParam(value="username",required=false,defaultValue="") String username,
@@ -65,7 +62,6 @@ public class UserController {
      * 编辑用户操作
      * @return
      */
-    @RequestMapping(value="/delete",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, String> delete(
             @RequestParam(value="ids[]",required=true) Long[] ids
@@ -96,7 +92,6 @@ public class UserController {
      * @param user
      * @return
      */
-    @RequestMapping(value="/edit",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, String> edit(User user){
         Map<String, String> ret = new HashMap<String, String>();
@@ -140,7 +135,6 @@ public class UserController {
      * @param user
      * @return
      */
-    @RequestMapping(value="/add",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, String> add(User user){
         Map<String, String> ret = new HashMap<String, String>();

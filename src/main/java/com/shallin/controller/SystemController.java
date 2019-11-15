@@ -24,7 +24,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-@RequestMapping("/system")
 @Controller
 public class SystemController {
 @Autowired
@@ -32,14 +31,12 @@ public class SystemController {
 @Autowired
     private StudentService studentService;
 
-    @RequestMapping(value = "/index",method = RequestMethod.GET)
     public  ModelAndView index(ModelAndView model){
             model.setViewName("system/index");
             return model;
     }
 
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
     public ModelAndView login(ModelAndView model) {
         model.setViewName("system/login");
         return model;
@@ -50,7 +47,6 @@ public class SystemController {
      * @param request
      * @return
      */
-    @RequestMapping(value = "/login_out",method=RequestMethod.GET)
     public String loginOut(HttpServletRequest request){
         request.getSession().setAttribute("user", null);
         return "redirect:login";
@@ -63,7 +59,6 @@ public class SystemController {
      * @param h
      * @param response
      */
-    @RequestMapping(value = "/get_cpacha", method = RequestMethod.GET)
     public void getCpacha(HttpServletRequest request,
                           @RequestParam(value = "vl", defaultValue = "4", required = false) Integer vl,
                           @RequestParam(value = "w", defaultValue = "98", required = false) Integer w,
@@ -82,7 +77,6 @@ public class SystemController {
 
 
 
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, String> login(
             @RequestParam(value ="username",required = true) String username,

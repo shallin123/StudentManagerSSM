@@ -24,7 +24,6 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.shallin.entity.Clazz;
-import com.shallin.entity.Grade;
 import com.shallin.entity.Student;
 import com.shallin.page.Page;
 import com.shallin.service.ClazzService;
@@ -35,7 +34,6 @@ import com.shallin.util.StringUtil;
  * @author llq
  *
  */
-@RequestMapping("/student")
 @Controller
 public class StudentController {
 
@@ -48,7 +46,6 @@ public class StudentController {
      * @param model
      * @return
      */
-    @RequestMapping(value="/list",method=RequestMethod.GET)
     public ModelAndView list(ModelAndView model){
         model.setViewName("student/student_list");
         List<Clazz> clazzList = clazzService.findAll();
@@ -63,7 +60,6 @@ public class StudentController {
      * @param page
      * @return
      */
-    @RequestMapping(value="/get_list",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> getList(
             @RequestParam(value="name",required=false,defaultValue="") String name,
@@ -95,7 +91,6 @@ public class StudentController {
      * @param student
      * @return
      */
-    @RequestMapping(value="/edit",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, String> edit(Student student){
         Map<String, String> ret = new HashMap<String, String>();
@@ -136,7 +131,6 @@ public class StudentController {
      * @param student
      * @return
      */
-    @RequestMapping(value="/add",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, String> add(Student student){
         Map<String, String> ret = new HashMap<String, String>();
@@ -176,7 +170,6 @@ public class StudentController {
      * @param ids
      * @return
      */
-    @RequestMapping(value="/delete",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, String> delete(
             @RequestParam(value="ids[]",required=true) Long[] ids
@@ -212,7 +205,6 @@ public class StudentController {
      * @return
      * @throws IOException
      */
-    @RequestMapping(value="/upload_photo",method=RequestMethod.POST)
     @ResponseBody
     public Map<String, String> uploadPhoto(MultipartFile photo,
                                            HttpServletRequest request,

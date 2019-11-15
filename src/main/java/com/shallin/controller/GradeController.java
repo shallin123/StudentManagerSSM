@@ -22,7 +22,6 @@ import com.shallin.util.StringUtil;
  * @author shallin
  *
  */
-@RequestMapping("/grade")
 @Controller
 public class GradeController {
 	
@@ -34,7 +33,6 @@ public class GradeController {
 	 * @param model
 	 * @return
 	 */
-	@RequestMapping(value="/list",method=RequestMethod.GET)
 	public ModelAndView list(ModelAndView model){
 		model.setViewName("grade/grade_list");
 		return model;
@@ -46,7 +44,6 @@ public class GradeController {
 	 * @param page
 	 * @return
 	 */
-	@RequestMapping(value="/get_list",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String, Object> getList(
 			@RequestParam(value="name",required=false,defaultValue="") String name,
@@ -67,7 +64,6 @@ public class GradeController {
 	 * @param grade
 	 * @return
 	 */
-	@RequestMapping(value="/edit",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String, String> edit(Grade grade){
 		Map<String, String> ret = new HashMap<String, String>();
@@ -91,7 +87,6 @@ public class GradeController {
 	 * @param grade
 	 * @return
 	 */
-	@RequestMapping(value="/add",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String, String> add(Grade grade){
 		Map<String, String> ret = new HashMap<String, String>();
@@ -115,7 +110,6 @@ public class GradeController {
 	 * @param ids
 	 * @return
 	 */
-	@RequestMapping(value="/delete",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String, String> delete(
 			@RequestParam(value="ids[]",required=true) Long[] ids
